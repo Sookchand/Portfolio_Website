@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Test with Absolute Paths</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .image-container {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        img {
+            max-width: 100%;
+            border: 1px solid #eee;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #1E88E5;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-item {
+            text-align: center;
+        }
+        .image-item p {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Test Page with Absolute Paths</h1>
+    
+    <div class="image-container">
+        <h2>Profile Photo</h2>
+        <img src="file:///D:/Portfolio_Website/assets/images/sookchand-photo.jpg" alt="Profile Photo">
+        <p>File path: D:/Portfolio_Website/assets/images/sookchand-photo.jpg</p>
+    </div>
+    
+    <div class="image-container">
+        <h2>Project Images</h2>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="file:///D:/Portfolio_Website/assets/images/supermarket-optimization.png" alt="Supermarket Optimization">
+                <p>supermarket-optimization.png</p>
+            </div>
+            <div class="image-item">
+                <img src="file:///D:/Portfolio_Website/assets/images/luminote.png" alt="LumiNote">
+                <p>luminote.png</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="image-container">
+        <h2>Visualization Images</h2>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="file:///D:/Portfolio_Website/assets/images/cluster_visualization.png" alt="Cluster Visualization">
+                <p>cluster_visualization.png</p>
+            </div>
+            <div class="image-item">
+                <img src="file:///D:/Portfolio_Website/assets/images/cluster_centroids.png" alt="Cluster Centroids">
+                <p>cluster_centroids.png</p>
+            </div>
+            <div class="image-item">
+                <img src="file:///D:/Portfolio_Website/assets/images/sales_by_day_of_week.png" alt="Sales by Day">
+                <p>sales_by_day_of_week.png</p>
+            </div>
+            <div class="image-item">
+                <img src="file:///D:/Portfolio_Website/assets/images/cluster_time_hour_of_day.png" alt="Cluster Time">
+                <p>cluster_time_hour_of_day.png</p>
+            </div>
+            <div class="image-item">
+                <img src="file:///D:/Portfolio_Website/assets/images/rating_correlation.png" alt="Rating Correlation">
+                <p>rating_correlation.png</p>
+            </div>
+        </div>
+    </div>
+    
+    <p>If you can see all the images above, then the image files are correctly located and accessible with absolute paths.</p>
+    <p>If you can't see the images, there might be security restrictions in your browser preventing access to local files.</p>
+</body>
+</html>
