@@ -30,7 +30,7 @@ This repository contains the code for my personal portfolio website, showcasing 
 ## Projects Featured
 1. **AI-Powered Supermarket Optimization System**
    - Interactive AI-driven system with Streamlit interface
-   - Live demo: [Supermarket Optimization App](https://supermarket-optimisation-6nldqlxy9mwvhlwfzwhzbl.streamlit.app)
+   - Live demo: [Supermarket Optimization App](https://supermarket-optimisation-abeahjqwb8ezjblspwqfe3.streamlit.app)
    - GitHub: [supermarket-optimisation](https://github.com/Sookchand/supermarket-optimisation)
 
 2. **LumiNote: A Versatile AI Productivity Assistant**
