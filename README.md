@@ -33,7 +33,12 @@ This repository contains the code for my personal portfolio website, showcasing 
    - Live demo: [Supermarket Optimization App](https://supermarket-optimisation-nq4jru2xu37ujjfucz4l6c.streamlit.app/)
    - GitHub: [supermarket-optimisation](https://github.com/Sookchand/supermarket-optimisation)
 
-2. **LumiNote: A Versatile AI Productivity Assistant**
+2. **Oil & Gas Market Optimisation**
+   - Advanced AI-driven platform for the oil and gas industry
+   - Features predictive analytics, risk assessment, and decision support systems
+   - GitHub: [OilGasMarketOptimisation](https://github.com/Sookchand/OilGasMarketOptimisation)
+
+3. **LumiNote: A Versatile AI Productivity Assistant**
    - Personal AI project leveraging Generative AI
    - Features intelligent text analysis, code assistance, and data visualization
 
