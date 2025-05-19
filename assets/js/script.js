@@ -1,3 +1,24 @@
+// Function to show demo tabs
+function showDemoTab(tabName) {
+    // Hide all tab contents
+    const tabContents = document.querySelectorAll('.demo-tab-content');
+    tabContents.forEach(content => {
+        content.style.display = 'none';
+    });
+
+    // Remove active class from all tabs
+    const tabs = document.querySelectorAll('.demo-tab');
+    tabs.forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    // Show the selected tab content
+    document.getElementById(tabName + '-tab').style.display = 'block';
+
+    // Add active class to the clicked tab
+    document.querySelector(`.demo-tab[onclick="showDemoTab('${tabName}')"]`).classList.add('active');
+}
+
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Smooth scrolling for navigation links

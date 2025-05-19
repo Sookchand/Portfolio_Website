@@ -211,8 +211,52 @@
                 </div>
             </section>
 
+            <section class="interactive-demo">
+                <h2>Interactive Dashboard</h2>
+                <p>Experience the Oil & Gas Market Optimization platform firsthand through our interactive dashboard. This demo allows you to:</p>
+
+                <ul class="feature-list">
+                    <li><strong>Upload Your Own Data</strong>: Test the system with your own commodity price datasets</li>
+                    <li><strong>Use Sample Data</strong>: Explore the platform with pre-generated sample data</li>
+                    <li><strong>Backtest Trading Strategies</strong>: Evaluate different trading strategies on historical data</li>
+                    <li><strong>Analyze Risk</strong>: Calculate Value at Risk (VaR) and run Monte Carlo simulations</li>
+                </ul>
+
+                <div class="demo-container">
+                    <div class="demo-tabs">
+                        <button class="demo-tab active" onclick="showDemoTab('iframe')">Live Demo</button>
+                        <button class="demo-tab" onclick="showDemoTab('screenshot')">Screenshots</button>
+                    </div>
+
+                    <div id="iframe-tab" class="demo-tab-content">
+                        <div class="iframe-container">
+                            <iframe src="https://oil-gas-market-optimization.netlify.app" frameborder="0" width="100%" height="600px"></iframe>
+                        </div>
+                        <p class="demo-note">If the demo doesn't load, you can <a href="https://oil-gas-market-optimization.netlify.app" target="_blank">open it in a new tab</a>.</p>
+                    </div>
+
+                    <div id="screenshot-tab" class="demo-tab-content" style="display: none;">
+                        <div class="screenshot-gallery">
+                            <div class="screenshot">
+                                <img src="../assets/images/oilgas-dashboard-1.jpg" alt="Data Management Interface">
+                                <p>Data Management Interface</p>
+                            </div>
+                            <div class="screenshot">
+                                <img src="../assets/images/oilgas-dashboard-2.jpg" alt="Trading Strategy Backtesting">
+                                <p>Trading Strategy Backtesting</p>
+                            </div>
+                            <div class="screenshot">
+                                <img src="../assets/images/oilgas-dashboard-3.jpg" alt="Risk Analysis Dashboard">
+                                <p>Risk Analysis Dashboard</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <div class="project-cta">
                 <a href="https://github.com/Sookchand/OilGasMarketOptimisation" class="btn primary" target="_blank">View Source Code <i class="fab fa-github"></i></a>
+                <a href="https://oil-gas-market-optimization.netlify.app" class="btn secondary" target="_blank">Open Full Dashboard <i class="fas fa-external-link-alt"></i></a>
                 <p class="demo-note">Explore the code repository to learn more about the advanced AI models and analytics techniques used in this project.</p>
             </div>
         </div>

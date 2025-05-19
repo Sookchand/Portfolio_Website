@@ -494,8 +494,92 @@ nav ul li a.active {
 .project-features,
 .my-role,
 .technologies,
-.outcomes {
+.outcomes,
+.interactive-demo {
     margin-bottom: 40px;
+}
+
+/* Interactive Demo Section */
+.interactive-demo h2 {
+    color: #1E88E5;
+    margin-bottom: 20px;
+}
+
+.demo-container {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.demo-tabs {
+    display: flex;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+.demo-tab {
+    padding: 15px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    flex: 1;
+    text-align: center;
+}
+
+.demo-tab:hover {
+    background-color: #e0e0e0;
+}
+
+.demo-tab.active {
+    background-color: white;
+    border-bottom: 3px solid #1E88E5;
+    color: #1E88E5;
+}
+
+.demo-tab-content {
+    padding: 20px;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.screenshot-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.screenshot {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.screenshot:hover {
+    transform: scale(1.02);
+}
+
+.screenshot img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.screenshot p {
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 0;
 }
 
 /* Feature list */
